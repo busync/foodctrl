@@ -30,7 +30,7 @@ require_once("autoload.php");
         </div>
 
         <div class="main--start">
-            <button><a href="">Я ученик</a></button>
+            <button><a href="uauth/">Я ученик</a></button>
             <button><a href="">Я админ</a></button>
         </div>
     </div>
