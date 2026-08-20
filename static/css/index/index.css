@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+}
+.main--header {
+  display: flex;
+  box-sizing: border-box;
+}
+.main--header img {
+  padding: 20px;
+  max-width: 800px;
+  width: 100vw;
+  height: 20vh;
+  min-height: 200px;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.main--text {
+  color: #fff;
+}
+.main--text hr {
+  border: none;
+  height: 3px;
+  background: linear-gradient(90deg, #707070, #333);
+}
+.main--crd {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.main--crd div {
+  color: #fff;
+  padding: 10px;
+  background: linear-gradient(90deg, #333, #111);
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.main--start {
+  margin: 30px;
+  display: flex;
+  gap: 20px;
+}
+.main--start button {
+  background-color: #00c8ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+.main--start button a {
+  display: block;
+  padding: 20px 40px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main--start button:hover {
+  background-color: #0099cc;
+  transform: scale(1.05);
+}/*# sourceMappingURL=index.css.map */
